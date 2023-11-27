@@ -1,0 +1,176 @@
+.subtittle{
+    margin: 1px 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+
+.sub{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+    background-color:rgb(121, 91, 0);
+    color: white;
+    width: 55%;
+}
+
+th{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+tr:hover{
+    background-color:gray ;
+}
+
+td{
+    border: 1px solid rgb(67, 64, 64); 
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.primera{
+    background-color: rgb(0, 0, 0);
+
+}
+
+@keyframes Izq{
+    0%{
+        top: 50px;
+        left: 30px;
+        background-color: rgb(121, 91, 0);
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+        
+    }
+    25%{
+        top: 80px;
+        left: 50px;
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;
+    background-color: rgb(255, 192, 2);
+        
+    }
+    50%{
+        top: 160px;
+        left: 30px;
+        border-radius: 0;
+        height: 100px;
+        width: 100px;
+    background-color:rgb(207, 160, 18) ;
+        
+    }
+    75%{
+        top: 240px;
+        left: 50px;
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;
+    background-color: rgb(255, 191, 0);
+    }
+    100%{
+        top: 320px;
+        left: 30px;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    background-color: rgb(121, 91, 0);
+    }
+}
+
+.animacionIzq{
+    float: left;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(121, 91, 0);
+    animation: Izq;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Der{
+    0%{
+        top: 50px;
+        right: 30px;
+        background-color: rgb(121, 91, 0);
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
+    25%{
+        top: 80px;
+        right: 50px;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    background-color: rgb(255, 192, 2);
+        
+    }
+    50%{
+        top: 160px;
+        right: 30px;
+        border-radius: 0;
+        height: 100px;
+        width: 100px;
+    background-color:rgb(207, 160, 18) ;
+        
+    }
+    75%{
+        top: 240px;
+        right: 50px;
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;
+    background-color: rgb(255, 191, 0);
+    }
+    100%{
+        top: 320px;
+        right: 30px;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    background-color: rgb(121, 91, 0);
+    }
+}
+
+.animacionDer{
+    float: right;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(121, 91, 0);
+    animation: Der;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.linea{
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+.subtittle{
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    /* arriba, el 0 aplica verticalmente y el auto a los laterales */
+    padding: 5px;
+    overflow: none;
+}
+
+.imagen1{
+    float: left;
+    max-width: 25%;
+    height: auto;
+    margin: 0 5px 5px 0;
+
+}
+
+.imagen2{
+    float: right;
+    max-width: 25%;
+    height: auto;
+    margin: 0 0 5px 5px;
+}
+
+article{
+    text-align: justify;
+    padding-inline: 5px;
+}
+
+.internTittle{
+    text-align: center;
+    padding-block: 10px;
+    font-size: larger;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px gray;
+}
